@@ -1,0 +1,47 @@
+# Ignore class files and other compiled files
+*.class
+
+*.war
+
+# Ignore logs
+*.log
+
+# Ignore Maven and Gradle folders
+mvnw
+mvnw.cmd
+.gradle/
+target/
+build/
+
+# Ignore IntelliJ IDEA project files
+.idea/
+*.iml
+*.iws
+
+# Ignore Eclipse project files
+.project
+.classpath
+.settings/
+target/
+
+# Ignore NetBeans project files
+nbproject/private/
+build/
+nbbuild/
+dist/
+.nb-gradle/
+
+# Ignore VS Code settings
+.vscode/
+.bin/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore personal environment files
+*.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
